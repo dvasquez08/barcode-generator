@@ -4,7 +4,7 @@ import React from "react";
 function QRCodeGenerator({ value }) {
   return (
     <>
-      <h2>QR Code Generator</h2>
+      <h2 className="display-6">QR Code Generator</h2>
       <QRCode value={value} />
     </>
   );

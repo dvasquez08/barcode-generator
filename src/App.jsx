@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import BarcodeGenerator from "./Components/BarcodeGenerator";
 import QRCodeGenerator from "./Components/QRGenerator";
+import "./App.css";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
@@ -11,9 +12,10 @@ function App() {
 
   return (
     <div>
-      <h1>Barcode and QR Code Generator! By David Vasquez</h1>
+      <h1 className="display-3">Barcode and QR Code Generator</h1>
+      <h1 className="display-6 author-heading">By: David Vasquez</h1>
       <input
-        className="form-control"
+        className="form-control user-input"
         type="text"
         placeholder="Enter data here..."
         value={inputValue}

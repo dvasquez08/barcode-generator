@@ -2,3 +2,20 @@ body {
   background-color: #023e8a;
   color: #fff;
 }
+
+.user-input {
+  width: 50%;
+}
+
+.author-heading {
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+input {
+  margin-bottom: 50px;
+}
