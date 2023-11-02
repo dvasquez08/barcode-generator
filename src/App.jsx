@@ -13,6 +13,7 @@ function App() {
     <div>
       <h1>Barcode and QR Code Generator! By David Vasquez</h1>
       <input
+        className="form-control"
         type="text"
         placeholder="Enter data here..."
         value={inputValue}
