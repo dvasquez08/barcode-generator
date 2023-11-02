@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
-import barcodeGenerator from "./Components/BarcodeGenerator";
-import QRGenerator from "./Components/QRGenerator";
+import BarcodeGenerator from "./Components/BarcodeGenerator";
+import QRCodeGenerator from "./Components/QRGenerator";
 
 function App() {
   const { inputValue, setInputValue } = useState("");
@@ -20,8 +20,8 @@ function App() {
         onChange={handleInputChange}
       />
 
-      <barcodeGenerator value={inputValue} />
-      <QRGenerator value={inputValue} />
+      <BarcodeGenerator value={inputValue} />
+      <QRCodeGenerator value={inputValue} />
     </div>
   );
 }
