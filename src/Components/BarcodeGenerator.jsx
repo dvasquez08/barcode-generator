@@ -1,7 +1,7 @@
 import React from "react";
 import Barcode from "react-barcode";
 
-function barcodeGenerator({ value }) {
+function BarcodeGenerator({ value }) {
   return (
     <>
       <h2>Barcode Generator</h2>
@@ -10,4 +10,4 @@ function barcodeGenerator({ value }) {
   );
 }
 
-export default barcodeGenerator;
+export default BarcodeGenerator;
