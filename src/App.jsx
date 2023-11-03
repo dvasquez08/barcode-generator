@@ -20,6 +20,10 @@ function App() {
           below, then a barcode and a QR code will be generated for you. Give it
           a try and create a QR and barcode!
         </p>
+        <p>
+          After your barcode is generate, you can click the download button to
+          download your result
+        </p>
       </div>
       <input
         className="form-control user-input"
