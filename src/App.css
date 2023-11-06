@@ -15,3 +15,9 @@ h2 {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+.app-info-text {
+  background-color: #212529;
+  border: 1px solid transparent;
+  border-radius: 30px;
+}
