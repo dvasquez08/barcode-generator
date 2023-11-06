@@ -4,13 +4,17 @@ import html2canvas from "html2canvas";
 
 function BarcodeGenerator({ value }) {
   const barcodeRef = useRef(null);
+  console.log(barcodeRef);
   const handleDownload = () => {
-    html2canvas(barcodeRef.current).then((canvas) => {
+    const code = document.querySelector(".barcode");
+    html2canvas(code).then((canvas) => {
       const image = canvas.toDataURL("image.png");
       const link = document.createElement("a");
       link.href = image;
-      link.download = "barcode.png";
+      link.setAttribute("download", "barcode.png");
+      document.body.appendChild(link);
       link.click();
+      document.body.removeChild(link);
     });
   };
 

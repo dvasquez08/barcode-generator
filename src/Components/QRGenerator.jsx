@@ -22,7 +22,9 @@ function QRCodeGenerator({ value }) {
       >
         <h2 className="display-6">QR Code Generator</h2>
         <p>The QR image below will change to your data:</p>
-        <QRCode value={value} />
+        <div>
+          <QRCode value={value} />
+        </div>
         <button
           onClick={handleDownload}
           className="mt-4 btn btn-secondary btn-sm"

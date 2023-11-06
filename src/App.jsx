@@ -21,7 +21,7 @@ function App() {
           a try and create a QR and barcode!
         </p>
         <p>
-          After your barcode is generate, you can click the download button to
+          After your barcode is generated, you can click the download button to
           download your result
         </p>
       </div>
