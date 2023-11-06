@@ -24,7 +24,7 @@ function QRCodeGenerator({ value }) {
         </div>
         <button
           onClick={handleDownload}
-          className="mt-4 btn btn-secondary btn-sm"
+          className="mt-4 btn btn-primary btn-sm"
         >
           Download QR Code
         </button>
