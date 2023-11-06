@@ -16,13 +16,10 @@ function QRCodeGenerator({ value }) {
 
   return (
     <>
-      <div
-        ref={qrCodeRef}
-        className="d-flex flex-column justify-content-center align-items-center text-center"
-      >
+      <div className="d-flex flex-column justify-content-center align-items-center text-center">
         <h2 className="display-6">QR Code Generator</h2>
         <p>The QR image below will change to your data:</p>
-        <div>
+        <div ref={qrCodeRef}>
           <QRCode value={value} />
         </div>
         <button
