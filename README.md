@@ -1,8 +1,17 @@
-# React + Vite
+# Barcode and QR Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app allows you to generate a barcode or a QR code using the data that you enter in the text box that is downloadable. This app was built with React, Vite and Bootstrap. The following libraries were used for the functionality of the app
 
-Currently, two official plugins are available:
+- react-barcode | The library used for the barcode generator
+- qrcode.react | The library used for the qr code generator
+- html2canvas | The library that is used for capturing the results, to make them downloadable
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Below, this is the top of the page that describes the functionality of the app, and the text box where you can enter your data.
+
+![barcode1](https://github.com/dvasquez08/barcode-generator/assets/99619761/2a0a93cf-4abe-48f5-8435-33eb39e9fb21)
+
+Next, as you type your data in the text box, the barcode and the QR code are generated in real-time.
+
+![barcode2](https://github.com/dvasquez08/barcode-generator/assets/99619761/59094b05-2069-4e2b-a64f-a477ffd5b59a)
+
+
