@@ -8,6 +8,7 @@ function Footer() {
           Click{" "}
           <a
             href="https://dvasquez08.github.io"
+            target="_blank"
             className="text-decoration-none text-warning"
           >
             here
@@ -15,6 +16,7 @@ function Footer() {
           for my portfolio. Click{" "}
           <a
             href="https://github.com/dvasquez08"
+            target="_blank"
             className="text-decoration-none text-warning"
           >
             here
