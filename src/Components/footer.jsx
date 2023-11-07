@@ -19,7 +19,7 @@ function Footer() {
           >
             here
           </a>{" "}
-          for my GitHub
+          for my GitHub.
         </p>
         <p className="text-center">
           &copy; {new Date().getFullYear()} David Vasquez
