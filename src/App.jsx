@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import BarcodeGenerator from "./Components/BarcodeGenerator";
 import QRCodeGenerator from "./Components/QRGenerator";
 import Footer from "./Components/footer";
+import { Helmet } from "react-helmet";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
 
   return (
     <div className="d-flex flex-column justify-content-center align-items-center text-center">
+      <Helmet>
+        <title>Barcode | QR Code Generator</title>
+        <link rel="icon" type="image/png" href="/assets/favicon.svg" />
+      </Helmet>
       <h1 className="display-3">Barcode and QR Code Generator</h1>
       <h1 className="display-6 author-heading">By: David Vasquez</h1>
       <div className="ps-5 pe-5 app-info-text ms-4 me-4 mb-4">
