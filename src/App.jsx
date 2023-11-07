@@ -18,12 +18,12 @@ function App() {
       <div className="ps-5 pe-5 app-info-text ms-4 me-4 mb-4">
         <p className="fs-3 fw-light">
           Welcome to my app! Here, you can type in your data in the text box
-          below, then a barcode and a QR code will be generated for you. Give it
+          below. Then a barcode and a QR code will be generated for you. Give it
           a try and create a QR and barcode!
         </p>
         <p className="fs-3 fw-light mb-5">
           After your barcode is generated, you can click the download button to
-          download your result
+          download your code as a PNG file.
         </p>
       </div>
       <input
