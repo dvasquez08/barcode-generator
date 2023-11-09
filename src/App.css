@@ -4,7 +4,7 @@
 }
 
 .user-input {
-  width: 80vh;
+  width: 80vh !important;
 }
 
 .title-text {
