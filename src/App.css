@@ -3,8 +3,8 @@
   color: #fff;
 }
 
-.user-input.form-control {
-  width: 80vh;
+.user-input {
+  width: 80vh !important;
 }
 
 .title-text {
