@@ -1,17 +1,13 @@
-.all-content {
+#all-content {
   background-color: #0f4c5c;
   color: #fff;
 }
 
-.user-input {
+#user-input {
   width: 50%;
 }
 
-.author-heading {
-  margin-bottom: 50px;
-}
-
-.title-text {
+#title-text {
   margin-bottom: 20px;
   margin-top: 20px;
 }
