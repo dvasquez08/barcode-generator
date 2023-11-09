@@ -3,6 +3,10 @@
   color: #fff;
 }
 
+.user-input {
+  width: 50vh;
+}
+
 .title-text {
   margin-bottom: 20px;
   margin-top: 20px;
