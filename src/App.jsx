@@ -3,7 +3,7 @@ import BarcodeGenerator from "./Components/BarcodeGenerator";
 import QRCodeGenerator from "./Components/QRGenerator";
 import Footer from "./Components/footer";
 import { Helmet } from "react-helmet";
-import "./App.module.css";
+import "./App.css";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
