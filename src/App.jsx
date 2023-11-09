@@ -3,7 +3,7 @@ import BarcodeGenerator from "./Components/BarcodeGenerator";
 import QRCodeGenerator from "./Components/QRGenerator";
 import Footer from "./Components/footer";
 import { Helmet } from "react-helmet";
-import styles from "./App.module.css";
+import "./App.module.css";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
@@ -13,11 +13,7 @@ function App() {
   };
 
   return (
-    <div
-      className={`${styles.d - flex} ${styles.flex - column} ${
-        styles.justify - content - center
-      } ${styles.align - items - center} ${styles.text - center}`}
-    >
+    <div className="d-flex flex-column justify-content-center align-items-center text-center">
       <Helmet>
         <title>Barcode | QR Code Generator</title>
         <link rel="icon" type="image/png" href="/assets/favicon.svg" />
@@ -35,7 +31,7 @@ function App() {
         </p>
       </div>
       <input
-        className={`${styles.form - control} ${styles.user - input}`}
+        className="form-control user-input"
         type="text"
         placeholder="Enter data here..."
         value={inputValue}
