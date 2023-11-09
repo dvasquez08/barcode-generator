@@ -1,4 +1,4 @@
-body {
+.all-content {
   background-color: #0f4c5c;
   color: #fff;
 }
@@ -11,7 +11,7 @@ body {
   margin-bottom: 50px;
 }
 
-h2 {
+.title-text {
   margin-bottom: 20px;
   margin-top: 20px;
 }

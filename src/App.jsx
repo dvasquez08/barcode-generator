@@ -13,12 +13,12 @@ function App() {
   };
 
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center text-center">
+    <div className="d-flex flex-column justify-content-center align-items-center text-center all-content">
       <Helmet>
         <title>Barcode | QR Code Generator</title>
         <link rel="icon" type="image/png" href="/assets/favicon.svg" />
       </Helmet>
-      <h1 className="display-3">Barcode and QR Code Generator</h1>
+      <h1 className="display-3 title-text">Barcode and QR Code Generator</h1>
       <div className="ps-5 pe-5 app-info-text ms-4 me-4 mb-4">
         <p className="fs-3 fw-light">
           Welcome! Here, you can type in your data in the text box below. Then a
