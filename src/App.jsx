@@ -30,15 +30,13 @@ function App() {
           download your code as a PNG file.
         </p>
       </div>
-      <div className="user-input">
-        <input
-          className="form-control"
-          type="text"
-          placeholder="Enter data here..."
-          value={inputValue}
-          onChange={handleInputChange}
-        />
-      </div>
+      <input
+        className="form-control col-6"
+        type="text"
+        placeholder="Enter data here..."
+        value={inputValue}
+        onChange={handleInputChange}
+      />
 
       <BarcodeGenerator value={inputValue} />
       <QRCodeGenerator value={inputValue} />
