@@ -3,11 +3,11 @@ body {
   color: #fff;
 }
 
-.user-input {
+user-input {
   width: 50%;
 }
 
-.author-heading {
+author-heading {
   margin-bottom: 50px;
 }
 
@@ -16,7 +16,7 @@ h2 {
   margin-top: 20px;
 }
 
-.app-info-text {
+app-info-text {
   background-color: #212529;
   border: 1px solid transparent;
   border-radius: 30px;
