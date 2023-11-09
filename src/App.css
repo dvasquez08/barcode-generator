@@ -17,9 +17,3 @@
   border: 1px solid transparent;
   border-radius: 30px;
 }
-
-@media (max-width: 690px) {
-  .all-content .user-input.form-control {
-    width: 40vh;
-  }
-}

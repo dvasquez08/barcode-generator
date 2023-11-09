@@ -26,12 +26,12 @@ function App() {
           create a QR and barcode!
         </p>
         <p className="fs-3 fw-light mb-5">
-          After your barcode is generated, you can click the download button to
+          After your code is generated, you can click the download button to
           download your code as a PNG file.
         </p>
       </div>
       <input
-        className="user-input form-control"
+        className="user-input form-control col-md-6"
         type="text"
         placeholder="Enter data here..."
         value={inputValue}
