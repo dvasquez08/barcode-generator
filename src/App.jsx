@@ -35,9 +35,9 @@ function App() {
 
       {/* The text box where users enter their data to generate their codes */}
       <div className="row">
-        <div className="col-12 col-md-6 col-sm-4">
+        <div className="col-12 col-md-6 col-sm-4 justify-content-center">
           <input
-            className="user-input form-control"
+            className="user-input form-control mx-auto"
             type="text"
             placeholder="Enter data here..."
             value={inputValue}
