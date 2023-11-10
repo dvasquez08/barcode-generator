@@ -2,6 +2,9 @@ import React, { useRef } from "react";
 import QRCode from "qrcode.react";
 import html2canvas from "html2canvas";
 
+// Functionality of the QR code generator
+// html2canvas configuration to capture an area for download
+
 function QRCodeGenerator({ value }) {
   const qrCodeRef = useRef(null);
   const handleDownload = () => {
@@ -13,6 +16,8 @@ function QRCodeGenerator({ value }) {
       link.click();
     });
   };
+
+  // Layout of the component and specifying to html2canvas which area to capture
 
   return (
     <>

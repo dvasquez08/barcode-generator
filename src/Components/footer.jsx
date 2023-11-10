@@ -1,5 +1,7 @@
 import React from "react";
 
+// Seperate comonent that was made for the footer
+
 function Footer() {
   return (
     <footer className="footer mt-5 py-3 bg-secondary container-fluid">

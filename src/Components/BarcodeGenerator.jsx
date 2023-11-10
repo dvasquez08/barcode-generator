@@ -2,6 +2,9 @@ import React, { useRef } from "react";
 import Barcode from "react-barcode";
 import html2canvas from "html2canvas";
 
+// Functionality of the barcode generator
+// html2canvas configuration to capture an area for download
+
 function BarcodeGenerator({ value }) {
   const barcodeRef = useRef(null);
   const handleDownload = () => {
@@ -13,6 +16,8 @@ function BarcodeGenerator({ value }) {
       link.click();
     });
   };
+
+  // Layout of the component and specifying to html2canvas which area to capture
 
   return (
     <>

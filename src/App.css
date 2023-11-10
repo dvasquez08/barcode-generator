@@ -1,11 +1,19 @@
+/* Custom styling properties */
+
+/* Styling for the background colour and text */
+
 .all-content {
   background-color: #0f4c5c;
   color: #fff;
 }
 
+/* Styling for the text box */
+
 .all-content .user-input.form-control {
   width: 80vh;
 }
+
+/* Styling for the intro and app description */
 
 .title-text {
   margin-bottom: 20px;

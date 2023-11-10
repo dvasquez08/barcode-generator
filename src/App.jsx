@@ -13,6 +13,8 @@ function App() {
   };
 
   return (
+    // Homepage of the app, this section is the intro and description of how the app works
+
     <div className="all-content d-flex flex-column justify-content-center align-items-center text-center">
       <Helmet>
         <title>Barcode | QR Code Generator</title>
@@ -30,6 +32,9 @@ function App() {
           download your code as a PNG file.
         </p>
       </div>
+
+      {/* The text box where users enter their data to generate their codes */}
+
       <input
         className="user-input form-control col-md-6 col-md-3"
         type="text"
@@ -37,6 +42,8 @@ function App() {
         value={inputValue}
         onChange={handleInputChange}
       />
+
+      {/* The three components for the app displayed in a column in order */}
 
       <BarcodeGenerator value={inputValue} />
       <QRCodeGenerator value={inputValue} />
