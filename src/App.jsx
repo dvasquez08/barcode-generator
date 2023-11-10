@@ -37,7 +37,7 @@ function App() {
       <div className="row justify-content-center">
         <div className="col-lg-6 col-md-6 col-sm-4">
           <input
-            className="form-control mx-auto"
+            className="form-control mx-auto col-lg-6 col-md-6 col-sm-4"
             type="text"
             placeholder="Enter data here..."
             value={inputValue}
