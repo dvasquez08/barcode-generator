@@ -35,7 +35,7 @@ function App() {
 
       {/* The text box where users enter their data to generate their codes */}
       <input
-        className="user-input form-control"
+        className="user-input form-control col-sm-4"
         type="text"
         placeholder="Enter data here..."
         value={inputValue}
