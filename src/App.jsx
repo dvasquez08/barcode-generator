@@ -31,7 +31,7 @@ function App() {
         </p>
       </div>
       <input
-        className="user-input form-control col-md-6"
+        className="user-input form-control col-md-6 col-md-3"
         type="text"
         placeholder="Enter data here..."
         value={inputValue}
