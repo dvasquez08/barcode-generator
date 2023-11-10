@@ -34,13 +34,17 @@ function App() {
       </div>
 
       {/* The text box where users enter their data to generate their codes */}
-      <input
-        className="user-input form-control col-sm-4"
-        type="text"
-        placeholder="Enter data here..."
-        value={inputValue}
-        onChange={handleInputChange}
-      />
+      <div className="row justify-content-center">
+        <div className="col-12 col-md-6 col-sm-4">
+          <input
+            className="form-control mx-auto"
+            type="text"
+            placeholder="Enter data here..."
+            value={inputValue}
+            onChange={handleInputChange}
+          />
+        </div>
+      </div>
 
       {/* The three components for the app displayed in a column in order */}
 
