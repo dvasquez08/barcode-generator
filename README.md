@@ -14,6 +14,6 @@ Next, as you type your data in the text box, the barcode and the QR code are gen
 
 ![barcode2](https://github.com/dvasquez08/barcode-generator/assets/99619761/59094b05-2069-4e2b-a64f-a477ffd5b59a)
 
-[Try it out here](https://github.com/dvasquez08/barcode-generator)
+[Try it out here](https:///dvasquez08.github.io/barcode-generator)
 
 
