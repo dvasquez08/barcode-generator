@@ -35,7 +35,7 @@ function App() {
 
       {/* The text box where users enter their data to generate their codes */}
       <div className="row justify-content-center">
-        <div className="col-12 col-md-6 col-sm-4">
+        <div className="col-12 col-lg-6 col-md-6 col-sm-4">
           <input
             className="form-control mx-auto"
             type="text"
