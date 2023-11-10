@@ -9,9 +9,9 @@
 
 /* Styling for the text box */
 
-/* .all-content .user-input.form-control {
+.all-content .user-input.form-control {
   width: 80vh;
-} */
+}
 
 /* Styling for the intro and app description */
 
@@ -24,4 +24,10 @@
   background-color: #212529;
   border: 1px solid transparent;
   border-radius: 30px;
+}
+
+@media (max-width: 700px) {
+  .all-content .user-input.form-control {
+    width: 40vh;
+  }
 }
