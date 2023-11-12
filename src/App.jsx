@@ -43,6 +43,7 @@ function App() {
         onChange={handleInputChange}
       />
       {/* The three components for the app displayed in a column in order */}
+      {/* This is where the barcode generator and the qr code generator appear, then the footer at the bottom */}
 
       <BarcodeGenerator value={inputValue} />
       <QRCodeGenerator value={inputValue} />

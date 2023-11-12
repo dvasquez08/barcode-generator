@@ -26,6 +26,8 @@
   border-radius: 30px;
 }
 
+/* Responsive settings for smaller screens */
+
 @media (max-width: 700px) {
   .all-content .user-input.form-control {
     width: 40vh;
