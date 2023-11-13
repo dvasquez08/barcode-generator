@@ -2,8 +2,10 @@ import React, { useRef } from "react";
 import QRCode from "qrcode.react";
 import html2canvas from "html2canvas";
 
-// Functionality of the QR code generator
-// html2canvas configuration to capture an area for download
+// Functionality of the QR code generator.
+// Here I'm using the useRef hook in the qrCode variable to access
+// The DOM element that needs to be captured.
+// html2canvas is used to capture what the qrCodeRef variable is capturing
 
 function QRCodeGenerator({ value }) {
   const qrCodeRef = useRef(null);
@@ -17,7 +19,11 @@ function QRCodeGenerator({ value }) {
     });
   };
 
-  // Layout of the component and specifying to html2canvas which area to capture
+  // Layout of the component and specifying how to handle the captured data
+  // QRCode value is put in its own div, then the qrCodeRef is used to specifically
+  // reference that portion of the component which is the QR code.
+  // onClick calls the handleDownload which caputures the referenced qr code and
+  // creates a file called qrcode.png
 
   return (
     <>

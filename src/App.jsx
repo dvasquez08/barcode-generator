@@ -13,7 +13,8 @@ function App() {
   };
 
   return (
-    // Homepage of the app, this section is the intro and description of how the app works
+    // Homepage of the app, this section is the intro and description of how the app works.
+    // I used the Helmet library to modify the title and favicon for the app
 
     <div className="all-content d-flex flex-column justify-content-center align-items-center text-center">
       <Helmet>
